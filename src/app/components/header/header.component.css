@@ -1,0 +1,14 @@
+div{
+    background-color: rgb(41, 41, 41) ;
+}
+
+app-login{
+    float: right;
+    margin-top: 12px
+} 
+
+app-social{
+    float: right;
+    margin-top: 16px;
+}
+
