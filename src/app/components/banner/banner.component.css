@@ -1,11 +1,45 @@
-img{
-    width: 700px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+
+.i-am{
+    height: 100vh;
+    color:#fff;
+
+    background-image: url(../../../assets/banner.jpg);
+    background-size: cover;   
+    background-position: center;
+    background-color: #000;   
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
 }
-div{
-    background-color: black;
-    
+
+.i-am-content{
+    font-family: 'Roboto', sans-serif;
+
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.i-am-name {
+    color: #fff;
+    font-weight: 800;
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+    text-shadow: 1px 1px 2px black
+}
+
+.i-am-tittle {
+    color: #fff;
+    font-weight: 600;
+    font-size: 2rem;
+    text-shadow: 1px 1px 2px black
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
 }

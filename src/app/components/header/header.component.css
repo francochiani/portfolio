@@ -1,14 +1,18 @@
 div{
     background-color: rgb(41, 41, 41) ;
+    width: 100%;
+    position: fixed;
 }
 
 app-login{
     float: right;
-    margin-top: 12px
+    margin-top: 6px;
+
 } 
 
 app-social{
     float: right;
-    margin-top: 16px;
+    margin-top: 17px;
+
 }
 
