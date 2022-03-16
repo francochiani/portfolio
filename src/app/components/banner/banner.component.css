@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto');
+
 
 .i-am{
     height: 100vh;
     color:#fff;
 
     background-image: url(../../../assets/banner.jpg);
-    background-size: cover;   
+    background-size:cover;   
     background-position: center;
     background-color: #000;   
-
+    
     align-items: center;
     justify-content: center;
     display: flex;
@@ -17,7 +17,6 @@
 
 .i-am-content{
     font-family: 'Roboto', sans-serif;
-
     width: 100%;
     margin-right: auto;
     margin-left: auto;
@@ -25,18 +24,17 @@
 }
 
 .i-am-name {
-    color: #fff;
+    color: rgb(41, 41, 41) ;
     font-weight: 800;
     font-size: 4rem;
-    margin-bottom: 1.5rem;
-    text-shadow: 1px 1px 2px black
+    margin-bottom: 1rem;
 }
 
 .i-am-tittle {
-    color: #fff;
+    color: rgb(41, 41, 41) ;
     font-weight: 600;
     font-size: 2rem;
-    text-shadow: 1px 1px 2px black
+    
 }
 
 p {
