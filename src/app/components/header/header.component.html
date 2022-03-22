@@ -1,6 +1,22 @@
-<div>
+<div class="container-fluid">
+<nav id="header" class="navbar fixed-top navbar-expand-xl navbar-expand-lg navbar-dark bg-dark ">
     <app-logo-ap></app-logo-ap>
-    <app-login></app-login>
-    <app-social></app-social>
-
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse " id="mainNav">
+      <div class="nav justify-content-center" id="navbar">
+        <li><a href="#banner" class="nav-link">Inicio</a></li>
+        <li><a href="#about" class="nav-link">Sobre mí</a></li>
+        <li><a href="#academy" class="nav-link">Académico</a></li>
+        <li><a href="#skills" class="nav-link disabled">Skills</a></li>
+        <li><a href="#proyects" class="nav-link disabled">Proyecto</a></li>
+        <li><a href="#contact" class="nav-link disabled">Contacto</a></li>
+      </div>
+      <app-social></app-social>
+      <app-login></app-login>
+    </div>
+  </nav>
 </div>
+
+
