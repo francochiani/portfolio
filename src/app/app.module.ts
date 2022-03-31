@@ -9,6 +9,9 @@ import { SocialComponent } from './components/social/social.component';
 import { LoginComponent } from './components/login/login.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { AboutComponent } from './components/about/about.component';
+import { AcademyComponent } from './components/academy/academy.component';
+
+
 
 @NgModule({
   declarations: [
@@ -18,11 +21,14 @@ import { AboutComponent } from './components/about/about.component';
     SocialComponent,
     LoginComponent,
     BannerComponent,
-    AboutComponent
+    AboutComponent,
+    AcademyComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    
+   
   ],
   providers: [],
   bootstrap: [AppComponent]
