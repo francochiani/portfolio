@@ -9,6 +9,10 @@ a{
     font-family: 'Fredoka', sans-serif;
 }
 
+button{
+    margin-right: 10px;
+}
+
 app-logo-ap{
     margin-right: 24%;
 }
@@ -16,18 +20,15 @@ app-logo-ap{
 app-login{
     float: right;
     margin-top: 0;
-
+    margin-left: 5%;
 } 
 
 app-social{
     margin-top: 0;
-
+    margin-left: 5%;
 }
 
-.navbar-collapse{
-    display: flex;
-    justify-content: space-between;
-}
+
 a:hover{
     color:#befaf7;
     text-decoration:underline wavy #66d7d1;
@@ -35,7 +36,22 @@ a:hover{
     font-weight: 500;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1286px){
+    app-logo-ap{
+        margin-right: 15%;
+    }
+}
+
+@media (max-width: 1150px){
+    app-logo-ap{
+        margin-right: 3%;
+    }
+    app-login{
+        margin-left: 3%;
+    }
+}
+
+@media (max-width: 991px) {
     #navbarNav{
         margin-left: 40px;
         margin-right: 20px;
@@ -55,7 +71,7 @@ a:hover{
     }
 }
 
-@media (max-width: 370px) {
+@media (max-width: 399px) {
     #navbarNav{
         margin-left: 40px;
         margin-right: 20px;
@@ -71,5 +87,6 @@ a:hover{
         margin-right:0px;
         width:fit-content;
         margin-top:10px;
+        float: right;
     }
 }
